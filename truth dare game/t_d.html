@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Truth or Dare Game</title>
+    <link rel="stylesheet" href="t_d.css">
+</head>
+<body>
+    <div id="player-input">
+        <input type="text" id="playerName" placeholder="Enter player name">
+        <br>
+        <button id="addPlayer">Add Player</button>
+        <br>
+        <button id="startGame" disabled>Start Game</button>
+        <ul id="playerList"></ul>
+    </div>
+    <div id="gameArea" style="display: none;">
+        <h2 id="currentTurn" style="font-size: 24px; color: #f1f1f1;"></h2>
+        <div id="timer" style="font-size: 24px;"></div>
+        <div id="truthOrDare"></div>
+        <button id="truthBtn">Truth</button>
+        <button id="dareBtn">Dare</button>
+        <button id="done" style="display: none;">Done</button>
+    </div>
+    <div id="currentScores" style="display: none;">
+        <h2>Current Scores</h2>
+        <ul id="scoreList"></ul>
+        <button id="endGameDuringPlay">End Game</button>
+    </div>
+
+    <div id="leaderboard" style="display: none;">
+        <h2>Leaderboard</h2>
+        <ul id="leaderboardList"></ul>
+        <button id="newGame">Start New Game</button>
+    </div>
+
+    <script src="t_d.js"></script>
+</body>
+</html>

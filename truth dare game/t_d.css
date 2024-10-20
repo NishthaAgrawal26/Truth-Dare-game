@@ -1,0 +1,142 @@
+body {
+    font-family: 'Arial', sans-serif;
+    /* background: linear-gradient(135deg, #f06, #f79); */
+    background-image: url("bg4.gif");
+    background-size: cover;
+    color: #fff;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    margin: 20px 0;
+    font-size: 24px;
+    color: #ffffff;
+}
+
+#player-input, #leaderboard {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px auto;
+    margin-top: 10%;
+    width: 90%;
+    max-width: 600px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+#gameArea{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 600px;
+    margin: 10px auto;
+    margin-top: 50px;
+    margin-bottom: 80px;
+}
+#currentScores{
+    background: rgba(0, 0, 0, 0.7);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    width: 90%;
+    max-width: 600px;
+    margin: 10px auto;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 70%;
+    margin-right: 10px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s, transform 0.2s;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
+
+#addPlayer {
+    background: #4CAF50; 
+    margin-top: 25px;
+    color: white;
+}
+
+#startGame {
+    background: #2196F3;
+    margin-top: 25px;
+    color: white;
+}
+
+#endGameDuringPlay {
+    background: #f44336; /* Red */
+}
+
+#truthBtn {
+    background: #FF9800; /* Orange */
+}
+
+#dareBtn {
+    background: #9C27B0; /* Purple */
+}
+
+#done {
+    background: #FFEB3B; /* Yellow */
+    display: none; /* Hidden by default */
+}
+
+#truthOrDare {
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+#timer {
+    font-size: 24px;
+    color: #FFD700; /* Gold */
+}
+
+#currentTurn {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin: 5px 0;
+}
+
+#leaderboardList {
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+    input[type="text"] {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    #player-input {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}

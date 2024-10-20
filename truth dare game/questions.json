@@ -1,0 +1,18 @@
+{
+    "questions": [
+        { "type": "truth", "question": "What is your biggest fear?" },
+        { "type": "dare", "question": "Do 10 pushups." },
+        { "type": "truth", "question": "Have you ever lied to get out of a situation?" },
+        { "type": "dare", "question": "Sing a song of your choice." },
+        { "type": "truth", "question": "What's the most embarrassing thing you've ever done?" },
+        { "type": "dare", "question": "Dance for 30 seconds." },
+        { "type": "truth", "question": "What is your guilty pleasure?" },
+        { "type": "dare", "question": "Let someone give you a silly hairstyle." },
+        { "type": "truth", "question": "If you could be invisible for a day, what's the first thing you would do?" },
+        { "type": "dare", "question": "Yell out the first word that comes to your mind. " },
+        { "type": "truth", "question": "Have you ever stolen anything?" },
+        { "type": "dare", "question": "Post an embarrassing photo on social media." },
+        { "type": "truth", "question": "What's one thing you love most about yourself?" },
+        { "type": "dare", "question": "Close your eyes until your next turn." }
+    ]
+}
